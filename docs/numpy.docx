@@ -1,0 +1,8 @@
+NumPy : 
+A python library used for working with arrays. It has functions for working in domain of linear algebra
+fourier transform, and matrices.
+NumPy provide an array object that is 50x faster than traditional python lists
+
+1. ndarray : 
+
+Array object in NumPy, with lots of supporting functions
