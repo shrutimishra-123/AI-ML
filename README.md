@@ -3,3 +3,4 @@ Learning AIML from scratch
 
 Week 1 : 
 - Python ( numpy, pandas, matplotlib/seaborn )
+- maths and statstics
