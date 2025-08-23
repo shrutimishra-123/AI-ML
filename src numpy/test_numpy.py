@@ -12,3 +12,4 @@ print(arr1.shape)
 print(arr1.size) # product of elements of shape
 print(arr1.dtype)
 print(type(arr))
+print(type(arr1))

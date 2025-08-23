@@ -1,8 +1,34 @@
 NumPy : 
-A python library used for working with arrays. It has functions for working in domain of linear algebra
-fourier transform, and matrices.
+A python library used for working with arrays. It has functions for working in domain of 
+linear algebra ,fourier transform, and matrices.
 NumPy provide an array object that is 50x faster than traditional python lists
 
-1. ndarray : 
+-> Numpy main object is the homogenous multidimensional array. In NumPy, dimensions are called
+axes.
 
-Array object in NumPy, with lots of supporting functions
+?? WHY IS NUMPY FAST
+the absence of any explicit looping, indexing in code, are taking place, of course, just
+"behind the scenes" in optimized, pre-compiled C code. This is called vectorized code.
+
+1. numpy.ndarray : 
+
+Array object in NumPy, with lots of supporting functions.
+It encapsulates n-dimensional arrays of homogenous data types.
+It is NumPy's array class.
+
+numpy.arrya != array.array(handles 1-D array)
+
+-> numpy arrays have fixed size at creation, unlike python lists(that grows dynamically),
+changing the size of ndarray will create a new array and delete the original.
+
+-> elements of numpy array has to be of same data type, thus will be in same size in memory.
+-> numpy gives element-by-element operations, when ndarray is involved
+Other important attributes of ndarray object are :
+
+1.1 ndarray.ndim : the number of axes of the array
+1.2 ndarray.shape : the dimensions of the array. This is a tuple of integers indicating the size 
+of the array in each dimension. A matrix of n rows and m cols, shape will be (n,m), the length of
+shape tuple is the number of axes, ndim.
+1.3 ndarray.size : the total number of elements of the array, equal to product of elements of shape.
+1.4 ndarray.dtype : an object describing the type of elements in the array.
+1.5 ndarray.data : the buffer containg the actual elements of the array
