@@ -1,0 +1,5 @@
+Pandas DataFrame = Excel sheet in Python, but programmable
+Pandas provide two types of classes for handaling data:
+
+1. Series : 1-D labeled array holding data of any type
+2. DataFrame : 2-D data structure that holds data like 2-D array

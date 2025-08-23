@@ -27,3 +27,5 @@ print(grouped)
 df2 = pd.DataFrame({'City': ['Delhi', 'Mumbai'], 'AQI' : [120, 150]})
 merged = pd.merge(df, df2, on='City', how='left')
 print(merged)
+
+# Pandas is for cleaning, filtering, grouping, joining
