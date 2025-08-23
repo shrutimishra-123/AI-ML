@@ -9,6 +9,7 @@ axes.
 ?? WHY IS NUMPY FAST
 the absence of any explicit looping, indexing in code, are taking place, of course, just
 "behind the scenes" in optimized, pre-compiled C code. This is called vectorized code.
+Supercharged list that can do math accross entire datasets at once(no loops needed).
 
 1. numpy.ndarray : 
 
@@ -16,7 +17,7 @@ Array object in NumPy, with lots of supporting functions.
 It encapsulates n-dimensional arrays of homogenous data types.
 It is NumPy's array class.
 
-numpy.arrya != array.array(handles 1-D array)
+numpy.arryas != array.array(handles 1-D array)
 
 -> numpy arrays have fixed size at creation, unlike python lists(that grows dynamically),
 changing the size of ndarray will create a new array and delete the original.
